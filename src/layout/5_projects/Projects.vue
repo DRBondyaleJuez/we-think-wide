@@ -1,0 +1,29 @@
+<template>
+    <div class="projects">
+        <h2>Proyectos Seleccionados</h2>
+        <div v-for="(projectItem, index) in projectList" :key="index">
+            <project-card :project-card-content=projectItem.cardContent :index="index"></project-card>
+        </div>
+    </div>
+</template>
+  
+<script>
+    import ProjectCard from "./ProjectCard.vue"
+    import projectsCardList from './project-card-list.js';
+
+  export default {
+    name: "Projects",
+    components: {
+        ProjectCard
+    },
+    data() { 
+        return {
+            projectList: projectsCardList
+        };
+    },
+  };
+  </script>
+  
+  <!-- Add "scoped" attribute to limit CSS to this component only -->
+  <style scoped>
+  </style>

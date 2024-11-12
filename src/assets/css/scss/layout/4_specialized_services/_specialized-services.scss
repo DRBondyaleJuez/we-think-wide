@@ -1,0 +1,72 @@
+.specialized-services {
+
+    h2 {
+        margin-bottom: 0.5rem;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+    }
+
+    h4 {
+        margin-top: 0;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+    .panel__glider {
+        position: relative;
+        width: 100%;
+        aspect-ratio: 10/5;
+
+        .panel-content {
+            position: relative;
+
+            &__image {
+                width: 100%;
+                object-fit: cover;
+                aspect-ratio: 10/5;
+            }
+
+            &__text {
+                position: absolute;
+                bottom: 1rem;
+                left: 1rem;
+                max-width: 60%;
+                text-align: left;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 600;
+                font-size: 1.2rem;
+                color: white;
+                text-shadow: 0px 0px 2px black;
+                line-height: 1.8rem;
+                
+            }
+        }
+
+        .glide__arrows {
+            position: absolute;
+            top: 45%;
+            width: 100%;
+            display: flex;
+
+            button {
+                background-color: transparent;
+                border: none;
+                width: 15%;
+                margin-left: auto;
+
+                img {
+                   width: 100%;
+
+                   &:hover {
+                    cursor: pointer;
+                   }
+                }
+            }
+
+        }
+
+    }
+}

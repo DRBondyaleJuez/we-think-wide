@@ -1,0 +1,59 @@
+[
+    { 
+        " cardContent": [
+            {
+                "image": "https://www.dummyimage.com/400x600/000000/fff&text=EXAMPLE1.1",
+                "text": "Visión, impacto y negocio",
+                "number": "1"
+            },
+            {
+                "image": "https://www.dummyimage.com/400x600/777777/000&text=EXAMPLE1.2",
+                "text": "Ayudamos a las organizaciones a definir su propósito, diseñar modelos de negocio innovadores y desarrollar propuestas de valor alineadas con su visión, impulsando un crecimiento sostenible.",
+                "number": ""
+            },
+            {
+                "image": "",
+                "text": "",
+                "number": ""
+            }
+        ] 
+    },
+    {
+        " cardContent": [
+            {
+                "image": "https://www.dummyimage.com/400x600/000000/fff&text=EXAMPLE2.1",
+                "text": "Marca y narrativa",
+                "number": "2"
+            },
+            {
+                "image": "https://www.dummyimage.com/400x600/777777/000&text=EXAMPLE2.2",
+                "text": "Diseñamos y desarrollamos marcas para conectar con sus audiencias a través de narrativas contemporáneas.",
+                "number": ""
+            },
+            {
+                "image": "",
+                "text": "",
+                "number": ""
+            }
+        ] 
+    },
+    {
+        "cardContent": [
+            {
+                "image": "https://www.dummyimage.com/400x600/000000/fff&text=EXAMPLE3.1",
+                "text": "Diseño de espacios y experiencia",
+                "number": "3"
+            },
+            {
+                "image": "https://www.dummyimage.com/400x600/000000/fff&text=EXAMPLE3.2",
+                "text": "Diseñamos espacios bellos, útiles y amables, Pensados para generar felicidad y bienestar en las personas. <br> Creamos rituales para estilo de vida.",
+                "number": ""
+            },
+            {
+                "image": "",
+                "text": "",
+                "number": ""
+            }
+        ] 
+    }
+]

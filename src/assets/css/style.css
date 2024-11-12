@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  background-color: white;
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: Arial, sans-serif;
+  font-weight: 300;
+}
+
+.header-view {
+  position: fixed;
+  width: 98%;
+  max-width: 1280px;
+  z-index: 2;
+  mix-blend-mode: difference;
+}
+.header-view-wrapper {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10%;
+}
+.header-view h1 {
+  font-size: 3rem;
+  color: white;
+  font-family: arial;
+}
+.header-view h2 {
+  color: white;
+  font-weight: 500;
+  font-family: arial;
+  align-self: center;
+}
+
+.services {
+  margin: 3rem 0 0 0;
+}
+.services h2 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+}
+.services__cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2%;
+}
+.services__cards .service-card {
+  width: 100%;
+}
+
+.specialized-services h2 {
+  margin-bottom: 0.5rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+}
+.specialized-services h4 {
+  margin-top: 0;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.specialized-services .panel__glider {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 10/5;
+}
+.specialized-services .panel__glider .panel-content {
+  position: relative;
+}
+.specialized-services .panel__glider .panel-content__image {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  aspect-ratio: 10/5;
+}
+.specialized-services .panel__glider .panel-content__text {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  max-width: 60%;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: white;
+  text-shadow: 0px 0px 2px black;
+  line-height: 1.8rem;
+}
+.specialized-services .panel__glider .glide__arrows {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  display: flex;
+}
+.specialized-services .panel__glider .glide__arrows button {
+  background-color: transparent;
+  border: none;
+  width: 15%;
+  margin-left: auto;
+}
+.specialized-services .panel__glider .glide__arrows button img {
+  width: 100%;
+}
+.specialized-services .panel__glider .glide__arrows button img:hover {
+  cursor: pointer;
+}
+
+.multi-media-displayer {
+  width: 100%;
+  height: 700px;
+  /*&__wrapper {
+  }*/
+}
+.multi-media-displayer__view {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  position: absolute;
+}
+.multi-media-displayer .opacity-0 {
+  opacity: 0;
+}
+
+.content-wrapper {
+  margin: 2rem;
+}/*# sourceMappingURL=style.css.map */
