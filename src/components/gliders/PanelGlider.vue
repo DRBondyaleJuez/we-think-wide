@@ -26,7 +26,7 @@
             <div class="glide__arrows" data-glide-el="controls">
                 <!-- <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>            -->
                 <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
-                    <img src="../../assets/static/icons/arrow-right.png"
+                    <img src="../../assets/static/icons/arrow-right.png">
                 </button>
             </div>
 
