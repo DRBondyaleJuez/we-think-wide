@@ -1,6 +1,6 @@
 <template>
     <div class="project-card__wrapper">
-        <card-glider :card-content="projectCardContent.cardContent" :index="index"></card-glider>
+        <card-glider :card-content="projectCardContent.cardContent" :index="'project'+index"></card-glider>
         <h3 class="project-card__title">
             {{ projectCardContent.title }}
         </h3>
@@ -28,9 +28,6 @@
         },
         components: {
             CardGlider
-        },
-        mounted() {
-            console.log(this.projectCardContent);
         }
     };
   </script>

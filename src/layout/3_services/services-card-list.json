@@ -1,6 +1,6 @@
 [
     { 
-        " cardContent": [
+        "cardContent": [
             {
                 "image": "https://www.dummyimage.com/400x600/000000/fff&text=EXAMPLE1.1",
                 "text": "Visión, impacto y negocio",
@@ -8,18 +8,18 @@
             },
             {
                 "image": "https://www.dummyimage.com/400x600/777777/000&text=EXAMPLE1.2",
-                "text": "Ayudamos a las organizaciones a definir su propósito, diseñar modelos de negocio innovadores y desarrollar propuestas de valor alineadas con su visión, impulsando un crecimiento sostenible.",
+                "text": "<p>Creemos que las empresas son un vehículo para el impacto positivo en la sociedad y el territorio.</p> <p>Nos mueve el propósito de las personas y de los proyectos.<p>",
                 "number": ""
             },
             {
-                "image": "",
-                "text": "",
+                "image": "https://www.dummyimage.com/400x600/440044/000&text=EXAMPLE1.2",
+                "text": "Ayudamos a las organizaciones a definir su propósito, diseñar modelos de negocio innovadores y desarrollar propuestas de valor alineadas con su visión, impulsando un crecimiento sostenible.",
                 "number": ""
             }
         ] 
     },
     {
-        " cardContent": [
+        "cardContent": [
             {
                 "image": "https://www.dummyimage.com/400x600/000000/fff&text=EXAMPLE2.1",
                 "text": "Marca y narrativa",

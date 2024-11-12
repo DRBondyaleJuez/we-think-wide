@@ -22,8 +22,7 @@
                                     </h3>
                                 </div>
                                 <div v-else-if="cardItem.text" class="card-content--without-number">
-                                    <h3 class="card-content__text">
-                                        {{ cardItem.text }}
+                                    <h3 class="card-content__text" v-html="cardItem.text">
                                     </h3>
                                 </div>
                             </div>

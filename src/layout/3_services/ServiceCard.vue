@@ -1,6 +1,6 @@
 <template>
-    <div class="service-card service-card" :id="index">
-        <card-glider :cardContent="serviceCardContent" :index="index"></card-glider>
+    <div class="service-card__wrapper" :id="index">
+        <card-glider :cardContent="serviceCardContent.cardContent" :index="'service'+index"></card-glider>
     </div>
 </template>
   
@@ -21,6 +21,9 @@
         },
         components: {
             CardGlider
+        },
+        mounted() {
+            console.log(this.projectCardContent);
         }
     };
   </script>

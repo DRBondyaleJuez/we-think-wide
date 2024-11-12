@@ -1,9 +1,9 @@
 <template>
     <div class="services">
         <h2>Servicios</h2>
-        <div class="services__cards">
-            <div v-for="(servicesItem, index) in servicesList" :key="index">
-                <service-card :service-card-content=servicesItem.cardContent :index="index"></service-card>
+        <div class="services-cards__wrapper">
+            <div class="service-card" v-for="(servicesItem, index) in servicesList" :key="index">
+                <service-card :service-card-content=servicesItem :index="index"></service-card>
             </div>
         </div>
 

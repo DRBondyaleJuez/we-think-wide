@@ -25,8 +25,8 @@ import introduction from './assets/static/json/introduction.json';
         {{ introduction.text }}
       </h3>
       <TestGlider />
-      <!--<Services />
-      <SpecializedServices />-->
+      <Services />
+      <SpecializedServices />
       <Projects />
       <!--<Interihotel />
       <Ecosystem />
