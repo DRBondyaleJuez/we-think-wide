@@ -6,26 +6,27 @@
 
                     <div v-for="(cardItem, index) in cardContent" :key="index">
 
-                    <li class="glide__slide">
-                            <img v-if="cardItem.image"
-                            class="glide-card-image"
-                            :src="cardItem.image"
-                            :alt="`Card_Image_${index + 1}`"
-                            >
-                            <div v-if="cardItem.number" class="glide-card-content--with-number">
-                                <h1 class="glide-card-content__number">
-                                    {{ cardItem.number }}
-                                </h1>
-                                <h3 class="glide-card-content__text">
-                                    {{ cardItem.text }}
-                                </h3>
+                        <li class="glide__slide">
+                            <div class="card-content">
+                                <img v-if="cardItem.image"
+                                class="card-content__image"
+                                :src="cardItem.image"
+                                :alt="`Card_Image_${index + 1}`"
+                                >
+                                <div v-if="cardItem.number" class="card-content--with-number">
+                                    <h1 class="card-content__number">
+                                        {{ cardItem.number }}
+                                    </h1>
+                                    <h3 class="card-content__text">
+                                        {{ cardItem.text }}
+                                    </h3>
+                                </div>
+                                <div v-else-if="cardItem.text" class="card-content--without-number">
+                                    <h3 class="card-content__text">
+                                        {{ cardItem.text }}
+                                    </h3>
+                                </div>
                             </div>
-                            <div v-else-if="cardItem.text" class="glide-card-content--without-number">
-                                <h3 class="glide-card-content__text">
-                                    {{ cardItem.text }}
-                                </h3>
-                            </div>
-
                         </li>
                         
                     </div>

@@ -1,9 +1,12 @@
 <template>
     <div class="projects">
         <h2>Proyectos Seleccionados</h2>
-        <div v-for="(projectItem, index) in projectList" :key="index">
-            <project-card :project-card-content=projectItem.cardContent :index="index"></project-card>
+        <div class="projects-cards__wrapper">
+            <div class="project-card" v-for="(projectItem, index) in projectList" :key="index">
+                <project-card :project-card-content=projectItem :index="index"></project-card>
+            </div>
         </div>
+
     </div>
 </template>
   

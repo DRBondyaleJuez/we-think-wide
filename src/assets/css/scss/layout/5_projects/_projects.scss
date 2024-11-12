@@ -1,0 +1,110 @@
+.projects {
+
+    h2 {
+        margin-bottom: 0.5rem;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+    }
+
+    &-cards__wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap:2%;
+    }
+
+    .project-card {
+        margin: 0 0 2%;
+        flex-grow: 1;
+        width: 32%;
+        max-width: 32%;
+        height: auto;
+
+        &__title {
+            margin: 0.5rem 0 0.5rem 1rem;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1rem;
+        }
+
+        &__description {
+            margin: 0.5rem 0 0.5rem 1rem;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1rem;
+            line-height: 1.3rem;
+        }
+
+        .card__glider {
+            position: relative;
+            width: 100%;
+            aspect-ratio: 4/5;
+            border-radius: 10%;
+
+            .card-content {
+                position:relative;
+
+                &__image {
+                    width: 100%;
+                    object-fit: cover;
+                    aspect-ratio: 5/7;
+                }
+            }
+
+            .glide {
+                &__track {
+                    position: relative;
+                    border-radius: 15%;
+                }
+
+                &__bullets {
+                    position: absolute;
+                    top: 10%;
+                    left: 3%;
+                    display: flex;
+                    justify-content: space-evenly;
+                    gap: 10px;
+                    width: 94%;
+                    height: 4px;
+    
+                    .glide__bullet {
+                        position: relative;
+                        flex: 1;
+                        border: none;
+                        border-radius: 10px;
+                        background-color: #707070;
+                        opacity: 70%;
+    
+                        &-reaction--fill {
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                            height: 100%;
+                            width: 0%;
+                            background-color: #f8f8f8 ;
+                            opacity: 80%;
+                            border-radius: 10px;
+                            transition: width 0s linear;
+                        }
+    
+                        &--visited {
+                            opacity: 80%;
+                            background-color: #f8f8f8 !important;
+                        }
+                    }
+    
+                    .glide__bullet--active {
+                        .glide__bullet-reaction {
+                            width: 0%;
+                            transition: width 0s linear;
+                        }
+    
+                        .glide__bullet-reaction--fill {
+                            width: 100%;
+                            transition: width 3s linear;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
