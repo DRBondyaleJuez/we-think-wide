@@ -2,7 +2,7 @@
     <div class="specialized-services">
         <h2>Servicios especializados</h2>
         <h4>Consultoría y estudio de diseño para hoteles</h4>
-        <panel-glider :panel-content="specializedServiceContentList" :index="index"></panel-glider>
+        <panel-glider :panel-content="specializedServiceContentList" :index="'specialized-service'+index"></panel-glider>
     </div>
 </template>
   
@@ -19,9 +19,6 @@
         return {
             specializedServiceContentList: specializedServicePanelList
         };
-    },
-    mounted(){
-        console.log(this.specializedServiceContentList);
     }
   };
   </script>

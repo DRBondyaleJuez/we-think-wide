@@ -1,13 +1,27 @@
-<script setup>
-
-</script>
-
 <template>
   <div class="interihotel">
-
-</div>
+      <h2>Interihotel</h2>
+      <panel-glider :panel-content="interihotelContentList" :index="'interihotel'+index"></panel-glider>
+  </div>
 </template>
 
-<style scoped>
+<script>
+  import PanelGlider from "../../components/gliders/PanelGlider.vue"
+  import interihotelPanelList from './interihotel-panel-list.json';
 
+export default {
+  name: "Interihotel",
+  components: {
+      PanelGlider
+  },
+  data() { 
+      return {
+          interihotelContentList: interihotelPanelList
+      };
+  }
+};
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
 </style>

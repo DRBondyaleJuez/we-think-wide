@@ -10,7 +10,6 @@ import Ecosystem from './layout/7_ecosystem/Ecosystem.vue'
 import Clients from './layout/8_clients/Clients.vue'
 import FooterView from './layout/9_footer/FooterView.vue'
 
-import TestGlider from './components/gliders/TestGlider.vue'
 
 import introduction from './assets/static/json/introduction.json';
 
@@ -24,12 +23,11 @@ import introduction from './assets/static/json/introduction.json';
       <h3 class="introduction">
         {{ introduction.text }}
       </h3>
-      <TestGlider />
       <Services />
       <SpecializedServices />
       <Projects />
-      <!--<Interihotel />
-      <Ecosystem />
+      <Interihotel />
+      <!--<Ecosystem />
       <Clients />-->
     </div>
     <FooterView />

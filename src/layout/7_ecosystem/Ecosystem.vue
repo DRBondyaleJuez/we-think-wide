@@ -5,7 +5,7 @@
 <template>
   <div class="ecosystem">
 
-</div>
+  </div>
 </template>
 
 <style scoped>

@@ -210,6 +210,8 @@ h3 {
 }
 .specialized-services .panel__glider .glide__arrows button img:hover {
   cursor: pointer;
+  filter: invert(100%);
+  transition: filter 0.2s linear;
 }
 
 .projects h2 {
@@ -301,6 +303,67 @@ h3 {
 .projects .project-card .card__glider .glide__bullets .glide__bullet--active .glide__bullet-reaction--fill {
   width: 100%;
   transition: width 3s linear;
+}
+
+.interihotel h2 {
+  margin-bottom: 0.5rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+}
+.interihotel h4 {
+  margin-top: 0;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.interihotel .panel__glider {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 10/5;
+}
+.interihotel .panel__glider .panel-content {
+  position: relative;
+}
+.interihotel .panel__glider .panel-content__image {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  aspect-ratio: 10/5;
+}
+.interihotel .panel__glider .panel-content__text {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  max-width: 60%;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: white;
+  text-shadow: 0px 0px 2px black;
+  line-height: 1.8rem;
+}
+.interihotel .panel__glider .glide__arrows {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  display: flex;
+}
+.interihotel .panel__glider .glide__arrows button {
+  background-color: transparent;
+  border: none;
+  width: 15%;
+  margin-left: auto;
+}
+.interihotel .panel__glider .glide__arrows button img {
+  width: 100%;
+}
+.interihotel .panel__glider .glide__arrows button img:hover {
+  cursor: pointer;
+  filter: invert(100%);
+  transition: filter 0.2s linear;
 }
 
 .multi-media-displayer {
