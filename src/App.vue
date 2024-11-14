@@ -27,8 +27,8 @@ import introduction from './assets/static/json/introduction.json';
       <SpecializedServices />
       <Projects />
       <Interihotel />
-      <!--<Ecosystem />
-      <Clients />-->
+      <Ecosystem />
+      <Clients />
     </div>
     <FooterView />
   </main>

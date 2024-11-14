@@ -27,6 +27,7 @@ h3 {
   font-size: 3rem;
   color: white;
   font-family: arial;
+  text-shadow: 0px 0px 2px black;
 }
 .header-view h2 {
   color: white;
@@ -153,8 +154,11 @@ h3 {
   transition: width 3s linear;
 }
 
+.specialized-services {
+  margin-top: 3rem;
+}
 .specialized-services h2 {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2rem;
@@ -214,8 +218,11 @@ h3 {
   transition: filter 0.2s linear;
 }
 
+.projects {
+  margin-top: 3rem;
+}
 .projects h2 {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2rem;
@@ -305,8 +312,11 @@ h3 {
   transition: width 3s linear;
 }
 
+.interihotel {
+  margin-top: 3rem;
+}
 .interihotel h2 {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2rem;
@@ -364,6 +374,112 @@ h3 {
   cursor: pointer;
   filter: invert(100%);
   transition: filter 0.2s linear;
+}
+
+.ecosystem {
+  margin-top: 3rem;
+}
+.ecosystem h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+}
+.ecosystem .member-cards__wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem 0;
+}
+.ecosystem .member-card {
+  margin-bottom: 1rem;
+  width: 18%;
+}
+.ecosystem .member-card h4 {
+  margin: 0.4rem 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.ecosystem .member-card__image {
+  width: 100%;
+  aspect-ratio: 5/5;
+}
+.ecosystem .member-card__text-wrapper {
+  margin-left: 1rem;
+  width: 95%;
+}
+.ecosystem .member-card__name {
+  margin-bottom: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+}
+.ecosystem .member-card__position {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+}
+
+.clients {
+  margin-top: 3rem;
+}
+.clients h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+}
+.clients ul {
+  -moz-column-count: 3;
+  -moz-column-gap: 5%;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 5%;
+  column-count: 3;
+  column-gap: 5%;
+}
+.clients ul li {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-view {
+  width: 95%;
+  max-width: 1280px;
+  margin: 3rem 0 0;
+  padding: 1rem 2rem;
+  background-color: #AAA;
+}
+.footer-view a, .footer-view p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+.footer-view h2 {
+  margin-bottom: 5rem;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer-view__content {
+  padding: 0.1rem 0 2rem 0;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-between;
+}
+.footer-view__legal {
+  display: flex;
+  flex-direction: column;
+}
+.footer-view__legal a {
+  margin-bottom: 0.5rem;
+}
+.footer-view__address {
+  align-self: center;
+}
+.footer-view__social-media {
+  display: flex;
+  flex-direction: column;
+}
+.footer-view__social-media a {
+  margin-bottom: 0.5rem;
 }
 
 .multi-media-displayer {

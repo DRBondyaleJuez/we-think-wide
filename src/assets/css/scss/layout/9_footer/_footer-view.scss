@@ -1,0 +1,51 @@
+.footer-view {
+    width: 95%;
+    max-width: 1280px;
+    margin: 3rem 0 0;
+    padding: 1rem 2rem;
+    background-color: #AAA;
+
+    a,p {
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+    }
+
+    h2 { 
+        margin-bottom: 5rem;
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    &__content {
+        padding: 0.1rem 0 2rem 0;
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+        justify-content: space-between;
+    }
+
+    &__email {
+    }
+
+    &__legal {
+        display: flex;
+        flex-direction: column;
+
+        a {
+            margin-bottom: 0.5rem;
+        }
+    }
+
+    &__address {
+        align-self: center;
+    }
+
+    &__social-media {
+        display: flex;
+        flex-direction: column;
+
+        a {
+            margin-bottom: 0.5rem;
+        }
+    }
+}

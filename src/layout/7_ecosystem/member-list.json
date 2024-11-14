@@ -1,13 +1,53 @@
 [
     {
-        "profile-picture":"https://i.imgur.com/NjD8lvi.jpeg",
+        "profilePicture":"https://i.imgur.com/NjD8lvi.jpeg",
         "name": "Cristina Rebolo",
         "position": "Diseño estratégico & dirección creativa"
     },
     {
-        "profile-picture":"https://i.imgur.com/NjD8lvi.jpeg",
+        "profilePicture":"https://i.imgur.com/NjD8lvi.jpeg",
         "name": "Bea Rivero",
         "position": "Gestión Digital"
+    },
+    {
+        "profilePicture":"https://i.imgur.com/NjD8lvi.jpeg",
+        "name": "Susana Rueda",
+        "position": "Dirección de arte"
+    },
+    {
+        "profilePicture":"https://i.imgur.com/NjD8lvi.jpeg",
+        "name": "Martín Bruster",
+        "position": "Dirección de arte"
+    },
+    {
+        "profilePicture":"https://i.imgur.com/NjD8lvi.jpeg",
+        "name": "Joaquín Benítez",
+        "position": "Filmmaker"
+    },
+    {
+        "profilePicture":"https://i.imgur.com/NjD8lvi.jpeg",
+        "name": "Sebastián de Cabo",
+        "position": "Innovación & Tecnología"
+    },
+    {
+        "profilePicture":"https://i.imgur.com/NjD8lvi.jpeg",
+        "name": "Gabriela Haapalainen",
+        "position": "Diseño Gráfico"
+    },
+    {
+        "profilePicture":"https://i.imgur.com/NjD8lvi.jpeg",
+        "name": "Iván Pereyra",
+        "position": "Arquitecto"
+    },
+    {
+        "profilePicture":"https://i.imgur.com/NjD8lvi.jpeg",
+        "name": "David Valcárcel",
+        "position": "Arquitecto"
+    },
+    {
+        "profilePicture":"https://i.imgur.com/NjD8lvi.jpeg",
+        "name": "Victor Jaubert",
+        "position": "Ilustrador"
     }
 
 ]
