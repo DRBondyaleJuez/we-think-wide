@@ -108,6 +108,13 @@ h3 {
 .services-cards__wrapper .service-card .card__glider .card-content--without-number .card-content__text span {
   margin-bottom: 5%;
 }
+.services-cards__wrapper .service-card .card__glider .card-content--without-number .card-content__text li {
+  list-style: disc;
+}
+.services-cards__wrapper .service-card .card__glider .card-content--without-number .card-content__text li::marker {
+  margin-top: -1%;
+  font-size: 20px;
+}
 .services-cards__wrapper .service-card .card__glider .glide__track {
   position: relative;
   border-radius: 15%;
@@ -405,6 +412,8 @@ h3 {
 .ecosystem .member-card__image {
   width: 100%;
   aspect-ratio: 5/5;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .ecosystem .member-card__text-wrapper {
   margin-left: 1rem;

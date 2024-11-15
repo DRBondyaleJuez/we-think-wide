@@ -75,11 +75,16 @@
                             span {
                                 margin-bottom: 5%;
                             }
+
+                            li {
+                                list-style: disc;
+                                &::marker {
+                                    margin-top: -1%;
+                                    font-size: 20px;
+                                }
+                            }
                         }
                     }
-
-
-
                 }
     
                 .glide {
