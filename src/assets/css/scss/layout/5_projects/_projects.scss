@@ -12,24 +12,27 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        gap:2%;
+        gap: 2%;
+        justify-content: center;
     }
 
     .project-card {
-        margin: 0 0 2%;
+        margin: 0 0 5%;
         flex-grow: 1;
-        width: 32%;
-        max-width: 32%;
+        width: 90%;
+        max-width: 90%;
         height: auto;
+        
 
         &__title {
-            margin: 0.5rem 0 0.5rem 1rem;
+            margin: 0.5rem 1rem 0.5rem 1rem;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 1rem;
+            font-weight: 700;
         }
 
         &__description {
-            margin: 0.5rem 0 0.5rem 1rem;
+            margin: 0.5rem 1rem 0.5rem 1rem;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 1rem;
             line-height: 1.3rem;
@@ -106,6 +109,37 @@
                     }
                 }
             }
+        }
+    }
+}
+
+@media (min-width: 576px) {
+    .projects {
+        margin-top: 3rem;
+    
+        h2 {
+            margin-bottom: 2rem;
+        }
+    
+        &-cards__wrapper {
+            gap: 8%;
+        }
+    
+        .project-card {
+            width: 45%;
+            max-width: 45%;
+        }
+    } 
+}
+
+@media (min-width: 768px) {
+    .projects {
+        &-cards__wrapper {
+            gap: 2%;
+        }
+        .project-card {
+            width: 32%;
+            max-width: 32%;
         }
     }
 }
